@@ -1,6 +1,6 @@
 # zwischen-ost-und-west.de
 
-[![hugo-CI zwischen-ost-und-west.de](https://github.com/pxlfrk/zwischen-ost-und-west.de/actions/workflows/hugo_CI.yml/badge.svg)](https://github.com/pxlfrk/zwischen-ost-und-west.de/actions/workflows/hugo_CI.yml)
+[![hugo-CI zwischen-ost-und-west.de](https://github.com/pxlfrk/zwischen-ost-und-west.de/actions/workflows/hugo_CI.yml/badge.svg)](https://github.com/pxlfrk/zwischen-ost-und-west.de/actions/workflows/hugo-CI.yml)
 
 Source code for static blog zwischen-ost-und-west.de
 
