@@ -1,0 +1,91 @@
+baseURL: https://zwischen-ost-und-west.de/
+languageCode: de-DE
+title: 🧭 Zwischen Ost und West
+theme: "PaperMod"
+paginate: 5
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+
+minify:
+    disableXML: true
+    minifyOutput: true
+
+defaultContentLanguage: "de"
+
+params:
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    title: Achim Krämer
+    description: Zwischen Ost und West | Tagebuch unserer Wanderung am Grünen Band - 🥾🧭
+    keywords: [Grünes Band, Weitwanderung, Deutschland, Innerdeutsche Grenze, Blog]
+    # author: ["Achim", "Miriam"]
+    images:
+        - android-chrome-512x512.png
+    DateFormat: "January 2, 2006" #do not change to a fancy date in the future or past as it will break the date renderer. been there, done that! ^ak
+    defaultTheme: auto # dark, light
+    ShowReadingTime: true
+    ShowShareButtons: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: false
+    disableThemeToggle: false
+    disableSpecial1stPost: true
+    disableScrollToTop: true
+    comments: false
+    hidemeta: true
+    hideSummary: true
+    showtoc: false
+    tocopen: false
+
+    # home-info mode
+    homeInfoParams:
+        Title: "Unsere Wanderung am Grünen Band mit 🏕️ Zelt & Rucksack zu 👣 1420 km vom Dreiländereck (Hof) bis Boltenhagen 🏁"
+        Content: >
+            Herzlich Willkommen auf unserem Blog. Wir sind Achim (28) und Miriam (25) und haben 2021 den einsamen Schreibtisch und die eigenen 4 Wände hinter uns gelassen, um unsere erste Fernwanderung entlang der ehemaligen innerdeutschen Grenze zu starten. Hier berichten wir über unsere Erfahrungen und geben Tipps für andere, die ebenfalls eine Wanderung am Grünen Band planen.
+
+            
+            &nbsp;
+
+
+            Das „Grüne Band“ umfasst 1400 Kilometer entlang der ehemaligen innerdeutschen Grenze und ist das erste gesamtdeutsche Naturschutzprojekt. Wir starten am Dreiländereck und folgen dem Kolonnenweg bis an die Ostseeküste. Dieser Plan entstand lange bevor ein Virus die Welt auf den Kopf gestellt hat, aber wir konnten trotz allem sehr viele spannende Begegnungen und wertvolle Eindrücke mitnehmen. Denn neben der Natur interessieren wir uns auch für die Geschichte und dafür, was die Menschen entlang der Grenze bewegt hat und bis heute beschäftigt.
+
+    cover:
+        hidden: true # hide everywhere but not in structured data
+        hiddenInList: true # hide on list pages and home
+        hiddenInSingle: true # hide on single page
+
+
+    # for search
+    # https://fusejs.io/api/options.html
+
+    fuseOpts:
+        isCaseSensitive: false
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 0.4
+        minMatchCharLength: 0
+        keys: ["title", "permalink", "summary", "content"]
+    
+# see https://github.com/adityatelange/hugo-PaperMod/wiki/Features#search-page
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+menu:
+    main:
+        - name: Über Uns & das Projekt
+          url: ueber-uns
+          weight: 1
+        - name: Tags
+          url: tags
+          weight: 20
+        - name: Archiv
+          url: /archive
+          weight: 10
+        - name: Suche
+          url: search
+          weight: 5

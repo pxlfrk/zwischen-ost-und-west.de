@@ -1,11 +1,10 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: "Fazit"
 description: ""
 summary: "" #displayed in post list
-tags: ["Tagebucheintrag", "Etappe 1-2-3", "Bayern", "Sachsen", "Thüringen", "Schleswig-Holstein"]
-author: "Me"
-publishDate: {{ .Date }}
-lastmod: {{ .Date }}
+tags: ["Grünes Band", "Weitwanderung", "Innerdeutsche Grenze", "Zwischen Ost und West"]
+publishDate: 2022-08-17T15:27:29+02:00
+lastmod: 2022-08-17T15:27:29+02:00
 # weight: 1
 # aliases: ["/first"]
 # author: ["Me", "You"] # multiple authors
@@ -18,7 +17,10 @@ TocOpen: false
 
 hidemeta: false
 comments: false
+
+disableHLJS: true # to disable highlightjs
 disableShare: false
+
 hideSummary: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
