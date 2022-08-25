@@ -11,7 +11,7 @@ lastmod: 2022-08-17T15:27:29+02:00
 # aliases: ["/first"]
 # author: ["Me", "You"] # multiple authors
 
-draft: true #STATUS
+draft: false #STATUS
 
 searchHidden: false #enable to exclude page/post from search results
 showToc: false
