@@ -35,7 +35,7 @@ cover:
     hidden: true # only hide on current single page
 ---
 
-Herzlich Willkommen auf unserem Blog. Wir sind Achim (28) und Miriam (25) und haben 2021 den einsamen Schreibtisch und die eigenen 4 Wände hinter uns gelassen, um unsere erste Fernwanderung entlang der ehemaligen innerdeutschen Grenze zu starten. Hier berichten wir über unsere Erfahrungen und geben Tipps für andere, die ebenfalls eine Wanderung am Grünen Band planen.
+Herzlich Willkommen auf unserem Blog. Wir sind Achim und Miriam und haben 2021 den einsamen Schreibtisch und die eigenen 4 Wände hinter uns gelassen, um unsere erste Fernwanderung entlang der ehemaligen innerdeutschen Grenze zu starten. Hier berichten wir über unsere Erfahrungen und geben Tipps für andere, die ebenfalls eine Wanderung am Grünen Band planen.
 
 ![Drohnenfoto](/ueber-uns/equipment-drone.jpg)
 

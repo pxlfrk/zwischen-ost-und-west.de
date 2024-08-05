@@ -80,9 +80,6 @@ menu:
         - name: Über Uns & das Projekt
           url: ueber-uns
           weight: 1
-        - name: Tags
-          url: tags
-          weight: 20
         - name: Archiv
           url: /archive
           weight: 10

@@ -1,7 +1,7 @@
 ---
 title: "Fazit"
 description: ""
-summary: "" #displayed in post list
+summary: "Unser Fazit nach 1400km zu Fuß durch Deutschland" #displayed in post list
 tags: ["Grünes Band", "Weitwanderung", "Innerdeutsche Grenze", "Zwischen Ost und West"]
 publishDate: 2022-08-17T15:27:29+02:00
 lastmod: 2022-08-17T15:27:29+02:00
@@ -22,7 +22,7 @@ disableHLJS: true # to disable highlightjs
 disableShare: false
 
 hideSummary: false
-ShowReadingTime: true
+ShowReadingTime: false
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
 cover:

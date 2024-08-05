@@ -16,3 +16,4 @@
 
 # ignore the build files
 /public/*
+*.lock

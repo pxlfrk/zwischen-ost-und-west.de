@@ -8,12 +8,12 @@ Source code for static blog zwischen-ost-und-west.de
 
 ### Clone repository including submodules
 
-Run `git clone --recursive https://github.com/pxlfrk/blakoe.de` to clone the repository including its submodules.
+Clone Repository locally with the recursive flag `--recursive` to clone the repository including its submodules.
 In case you already ran git without `--recursive`, you can alternatively run `git submodule update --init --recursive` additionally when inside the repository's root folder (see also [Sample Configuration Method 2](https://github.com/adityatelange/hugo-PaperMod/wiki/Installation#sample-configyml)).
 
 ### Install Hugo
 
-Make sure you have installed the latest Hugo version (`>=0.82.0`). In case `apt install hugo` only installs and old version, download the latest binary for your OS from [Hugo's Github repository](https://github.com/gohugoio/hugo/releases/latest) (on WSL, use the `_Linux-64bit.deb` variant) and install it (on WSL, do `apt install ./hugo_x.y.z_Linux-64bit.deb`).
+Make sure you have installed the latest Hugo version (`>=0.128.0`). In case `apt install hugo` only installs and old version, download the latest binary for your OS from [Hugo's Github repository](https://github.com/gohugoio/hugo/releases/latest) (on WSL, use the `_Linux-64bit.deb` variant) and install it (on WSL, do `apt install ./hugo_x.y.z_Linux-64bit.deb`).
 Run `hugo version` to verify your installed version.
 
 ### Serve page locally
